@@ -48,7 +48,7 @@
   left: 64px;
   line-height: 25px;
   font-size: 18px;
-  font-weight: normal ;
+  font-weight: normal;
   z-index: 4;
 }
 
@@ -191,17 +191,17 @@
 
 /* основной контент, секция метод Фейнмана*/
 /*Микс стилей двух блоков, для установки внешнего отступа у блока feinman*/
-.feinman-section__feinman {
+.feynman-section__feynman {
   margin: 100px 0 0;
 }
 
-.feinman-section {
+.feynman-section {
   background-color: #f2f2f2;
   position: relative;
   display: flex;
 }
 
-.feinman {
+.feynman {
   height: 790px;
   width: 100%;
   display: flex;
@@ -213,7 +213,7 @@
   align-items: center;
 }
 
-.feinman__title {
+.feynman__title {
   width: 648px;
   line-height: 1.15;
   font-size: 120px;
@@ -222,14 +222,14 @@
   text-align: center;
 }
 
-.feinman__subtitle {
+.feynman__subtitle {
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
   margin: 70px 0 0;
 }
 
-.feinman__link {
+.feynman__link {
   color: black;
   line-height: 51px;
   font-size: 36px;
