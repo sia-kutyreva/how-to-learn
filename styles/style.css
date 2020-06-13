@@ -57,6 +57,12 @@
   color: #2f80ed;
 }
 
+/* псевдокласс для того чтобы ссылка реагировала */
+/* на действия пользователя */
+.header__link:hover {
+  color: brown;
+}
+
 .header__main-illustration {
   width: 765px;
   height: 608px;
@@ -168,6 +174,8 @@
   justify-content: space-between;
   align-content: flex-end;
   flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
 }
 
 .table__cell {
@@ -193,7 +201,7 @@
 .feynman {
   background-color: #f2f2f2;
   position: relative;
-  height: 790px;
+  min-height: 790px;
   display: flex;
   background-image: url('../images/feynman.png');
   background-repeat: no-repeat;
@@ -231,6 +239,12 @@
   text-decoration: none;
 }
 
+/* псевдокласс для того чтобы ссылка реагировала */
+/* на действия пользователя */
+.feynman__link:hover {
+  color: brown;
+}
+
 /* основной контент, секция принципы обучения от Кауфмана*/
 /*Микс стилей двух блоков, для установки внешнего отступа*/
 /*у блока section-title section-subtitle table*/
@@ -250,7 +264,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: black;
+  background-color: #1f1f1f;
   position: relative;
   overflow: hidden;
 }
@@ -258,7 +272,9 @@
 .kaufman__triangle {
   width: 877px;
   height: 877px;
-  object-fit: cover;
+  background-image: url('../images/kaufman-triangle.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
   position: absolute;
   right: -210px;
   top: 0;
@@ -290,7 +306,7 @@
 .footer {
   min-height: 350px;
   display: flex;
-  background-color: black;
+  background-color: #1f1f1f;
 }
 
 .footer__columns {
@@ -344,6 +360,12 @@
   color: white;
   text-decoration: none;
   padding: 0;
+}
+
+/* псевдокласс для того чтобы ссылки реагировали */
+/* на действия пользователя */
+.footer__column-link:hover {
+  color: brown;
 }
 
 .footer__column-icon {
