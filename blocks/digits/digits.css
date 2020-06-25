@@ -1,0 +1,12 @@
+/*Подключение стилей элементов блока*/
+@import url('./__section-subtitle/digits__section-subtitle.css');
+@import url('./__section-title/digits__section-title.css');
+@import url('./__table/digits__table.css');
+
+/*Стили самого блока*/
+.digits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}

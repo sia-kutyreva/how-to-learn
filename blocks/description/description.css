@@ -1,0 +1,9 @@
+/*Подключение стилей элемента блока*/
+@import url('./__two-columns/description__two-columns.css');
+
+/*Стили самого блока*/
+.description {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}

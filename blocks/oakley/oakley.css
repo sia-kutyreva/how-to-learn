@@ -1,0 +1,11 @@
+/*Подключение стилей элемента блока*/
+@import url('./__two-columns/oakley__two-columns.css');
+
+/*Стили самого блока*/
+.oakley {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 160px;
+  background-color: #f2f2f2;
+}

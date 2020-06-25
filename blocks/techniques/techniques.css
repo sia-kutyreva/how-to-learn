@@ -1,0 +1,12 @@
+/*Подключение стилей элементов блока*/
+@import url('./__cards/techniques__cards.css');
+@import url('./__section-subtitle/techniques__section-subtitle.css');
+@import url('./__section-title/techniques__section-title.css');
+
+/*Стили самого блока*/
+.techniques{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}

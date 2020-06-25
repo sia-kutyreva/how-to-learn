@@ -1,0 +1,9 @@
+/*Подключение стилей элементов блока*/
+@import url('./_place/logo_place_header.css');
+@import url('./_place/logo_place_footer.css');
+
+/*Стили самого блока*/
+.logo {
+  width: 183px;
+  height: 32px;
+}

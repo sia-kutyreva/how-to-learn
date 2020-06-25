@@ -1,0 +1,5 @@
+.video__container {
+  display: flex;
+  height: 270px;
+  overflow: visible;
+}

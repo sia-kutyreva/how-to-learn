@@ -1,0 +1,4 @@
+/*Блок для создания плавного перехода ссылкам при наведении курсора*/
+.transition-link {
+  transition: opacity 0.8s linear;
+}

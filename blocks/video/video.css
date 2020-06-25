@@ -1,0 +1,13 @@
+/*Подключение стилей элементов блока*/
+@import url('./__section-title/video__section-title.css');
+@import url('./__section-subtitle/video__section-subtitle.css');
+@import url('./__conteiner/video__container.css');
+@import url('./__iframe/video__iframe.css');
+
+/*Стили самого блока*/
+.video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}

@@ -1,0 +1,16 @@
+/*Подключение стилей элементов блока*/
+@import url('./__triangle/kaufman__triangle.css');
+@import url('./__table/kaufman__table.css');
+@import url('./__section-title/kaufman__section-title.css');
+@import url('./__section-subtitle/kaufman__section-subtitle.css');
+
+/*Стили самого блока*/
+.kaufman {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1f1f1f;
+  position: relative;
+  overflow: hidden;
+  padding-top: 90px;
+}
