@@ -2,6 +2,7 @@
   text-decoration: none;
   color: #2f80ed;
   opacity: 1;
+  transition: opacity 0.8s linear;
 }
 
 /*Псевдокласс для создания эффектов при наведении курсора на ссылку*/

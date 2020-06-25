@@ -10,7 +10,7 @@
 /*Стили самого блока*/
 .table {
   display: flex;
-  width: 1100px;
+  max-width: 1100px;
   justify-content: space-between;
   align-content: flex-end;
   flex-wrap: wrap;

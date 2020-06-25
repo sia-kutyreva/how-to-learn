@@ -9,6 +9,7 @@
   bottom: 50%;
   text-decoration: none;
   opacity: 1;
+  transition: opacity 0.8s linear;
 }
 
 /*Псевдокласс для создания эффектов при наведении курсора на ссылку*/

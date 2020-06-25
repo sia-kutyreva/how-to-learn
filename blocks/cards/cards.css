@@ -7,7 +7,7 @@
 /*Стили самого блока*/
 .cards {
   display: flex;
-  width: 920px;
+  max-width: 920px;
   align-content: flex-end;
   flex-wrap: wrap;
   list-style: none;

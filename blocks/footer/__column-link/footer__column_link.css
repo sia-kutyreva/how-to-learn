@@ -6,6 +6,7 @@
   text-decoration: none;
   padding: 0;
   opacity: 1;
+  transition: opacity 0.8s linear;
 }
 
 /*Псевдокласс для создания эффектов при наведении курсора на ссылку*/
